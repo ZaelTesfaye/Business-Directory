@@ -14,13 +14,17 @@
     },
     "ios": {
       "supportsTablet": true
-
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.zealtesfaye.businessdirect"
     },
     "web": {
       "bundler": "metro",
@@ -35,16 +39,26 @@
         }
       ],
       "expo-router",
-      ["expo-build-properties", {
-        "ios": {
-          "useFrameworks": "static"
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
         }
-      }],
+      ],
       "@react-native-firebase/app",
       "@react-native-firebase/auth"
     ],
     "experiments": {
-      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "30087191-0718-4b0f-88ed-d55f7d411f1a"
+      }
     }
   }
 }
