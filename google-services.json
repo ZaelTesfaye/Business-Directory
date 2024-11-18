@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "54804310998",
+    "project_id": "business-direct-3fe9f",
+    "storage_bucket": "business-direct-3fe9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54804310998:android:a96d4960e3ce48b25c5277",
+        "android_client_info": {
+          "package_name": "com.zealtesfaye.businessdirect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54804310998-6f77sbl213m901ajprvjb6p2d850epuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsU1p9JN0ENwCfh_Ox-j4H2ISYCza69fA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54804310998-6f77sbl213m901ajprvjb6p2d850epuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
